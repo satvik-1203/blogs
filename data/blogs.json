@@ -1,6 +1,6 @@
 [
   {
-    "url": "/heap-and-stack",
+    "url": "heap_and_stack",
     "name": "Heap and stack memory",
     "description": "Basics of computer memory management"
   }
