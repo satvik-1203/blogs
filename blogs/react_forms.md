@@ -6,7 +6,7 @@ Date: 11/03/2022
 
 # React Forms
 
-```txt terminal
+```txt:terminal
 
 yarn create vite
 
@@ -20,7 +20,7 @@ Following Questions:
 
 Once you finished the steps, you should have a repo with what ever you named.
 
-```txt terminal
+```txt:terminal
 
 cd react-forms
 yarn install
