@@ -34,7 +34,7 @@ In the old times of HTML, the `FormData` object was the trend with form. Just pa
 
 The code structure uses labels and an input tag; the label tag is optional. However, what is required is the `name` attribute on the input tag, which is the key when we get them into the object. We can then have our general onSubmit function that prevents default and get all the values from the input fields. After making the FormObject, we can send it to a server using fetch or whatever you want.
 
-```js:App.tsx/onSubmit showLineNumbers
+```js:App.tsx showLineNumbers
 
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -53,13 +53,9 @@ The code structure uses labels and an input tag; the label tag is optional. Howe
     setFormDataState(formDataObj);
   };
 
-```
-
-```html:App.tsx showLineNumbers
-
 <label>Full Name</label>
 
-<!-- Name stands for key in the object -->
+// Name stands for key in the object
 
 <input type="text" name="fullname" />
 
