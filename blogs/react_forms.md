@@ -30,4 +30,4 @@ And rest assured, I won't be going through any CSS here. Once we get rid of all 
 
 In the old times of HTML, the `FormData` object was the trend with form. Just pass `event.currentTarget` as a parameter on the object, and we can access any input we like by doing `FormData(event.currentTarget).get(name)`. Before I explain much, lets look at the code.
 
-<iframe src="https://codesandbox.io/p/github/satvik-1203/React-Form/draft/spring-resonance?file=%2Fsrc%2FApp.tsx" title="code"></iframe>
+<iframe src="https://codesandbox.io/p/github/satvik-1203/React-Form/draft/spring-resonance?file=%2Fsrc%2FApp.tsx" title="code" height="90vh"></iframe>
