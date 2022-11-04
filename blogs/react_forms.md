@@ -30,4 +30,4 @@ And rest assured, I won't be going through any CSS here. Once we get rid of all 
 
 In the old times of HTML, the `FormData` object was the trend with form. Just pass `event.currentTarget` as a parameter on the object, and we can access any input we like by doing `FormData(event.currentTarget).get(name)`. Before I explain much, lets look at the code.
 
-<iframe src="https://codesandbox.io/embed/pensive-glitter-vgvnls?module=/src/App.tsx&fontsize=12&view=editor" title="code" height="800"></iframe>
+<iframe src="https://codesandbox.io/embed/pensive-glitter-vgvnls?module=/src/App.tsx&fontsize=12&view=split" title="code" height="800"></iframe>
