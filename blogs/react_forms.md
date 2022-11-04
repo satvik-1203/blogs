@@ -30,7 +30,7 @@ And rest assured, I won't be going through any CSS here. Once we get rid of all 
 
 In the old times of HTML, the `FormData` object was the trend with form. Just pass `event.currentTarget` as a parameter on the object, and we can access any input we like by doing `FormData(event.currentTarget).get(<input name>)`. Before I explain much, let's look at the code. Just fill in all the fields in the form and once you click submit, look how we get all the data with no use of state, onChange functions, or whatsoever.
 
-<iframe src="https://codesandbox.io/embed/pensive-glitter-vgvnls?module=/src/App.tsx&fontsize=12&view=split" title="code" height="800"></iframe>
+<iframe src="https://codesandbox.io/embed/github/satvik-1203/React-Form?module=/src/App.tsx&fontsize=12&view=split" title="code" height="800"></iframe>
 
 The code structure uses labels and an input tag; the label tag is optional. However, what is required is the `name` attribute on the input tag, which is the key when we get them into the object. We can then have our general onSubmit function that prevents default and get all the values from the input fields. After making the FormObject, we can send it to a server using fetch or whatever you want.
 
