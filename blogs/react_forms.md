@@ -28,7 +28,7 @@ We all know forms and React. Eww, they don't go well. After Remix came out, for 
 For starters, before we dive in, remove all the boilerplate that comes with it.
 And rest assured, I won't be going through any CSS here. Once we get rid of all the boilerplate, let's think of the input fields that scare us. Radio buttons? Textarea? Date? Checkboxes? Think about anything. All I can promise is that I can make react forms much easier than you thought. Unfortunately, this method won't work for input files, tho :(.
 
-In the old times of HTML, the `FormData` object was the trend with form. Just pass `event.currentTarget` as a parameter on the object, and we can access any input we like by doing `FormData(event.currentTarget).get(<input name>)`. Before I explain much, let's look at the code. Just fill in all the fields in the form and once you click submit, look how we get all the data with no use of state, onChange functions, or whatsoever.
+In the old times of HTML, the `FormData` object was the trend with form. Just pass `event.currentTarget` as a parameter on the object, and we can access any input we like by doing **FormData(event.currentTarget).get(<input name>)**. Before I explain much, let's look at the code. Just fill in all the fields in the form and once you click submit, look how we get all the data with no use of state, onChange functions, or whatsoever.
 
 <iframe src="https://codesandbox.io/embed/github/satvik-1203/React-Form?module=/src/App.tsx&fontsize=12&view=split" title="code" height="800"></iframe>
 
