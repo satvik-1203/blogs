@@ -7,9 +7,7 @@ Date: 11/03/2022
 # React Forms
 
 ```txt:terminal
-
 yarn create vite
-
 ```
 
 Following Questions:
@@ -21,10 +19,8 @@ Following Questions:
 Once you finished the steps, you should have a repo with what ever you named.
 
 ```txt:terminal
-
 cd react-forms
 yarn install
-
 ```
 
 We all know forms and React. Eww, they don't go well. After Remix came out, for new developers like me who started with the modern web, forms surprised me with how easy it used to be in the old times and how complicated the React community made it by using state management, onChange functions, etc. Primarily working with radio buttons, dates, and other input fields scared me. And the one thing I always hated about forms and using state is making it rerender on every change in the input box. Is it required? I know it's a cheap process, but it makes me shiver. I came up with another solution. However, it's not the ideal way. But cleaner than the traditional way of creating forms. So, let's get it.
