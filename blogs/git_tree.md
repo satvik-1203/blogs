@@ -13,13 +13,13 @@ Since there are a ton of blogs on them, I don't want to spend time explaining th
 
 ## Content
 
-- Into To Trees
+- Intro To Trees
 - Changes To The Tree By Commit
 - Changes To The Tree By Branching
 - Changes To The Tree By Merging
 - Changes To The Tree By Rebase
 
-### Into To Trees
+### Intro To Trees
 
 Before we start, I want to give a brief introduction to trees. **What is a tree?** Tree is a data structure where each node **(parent)** is connected to multiple other nodes.
 The connected nodes are `children`.
