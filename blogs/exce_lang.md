@@ -10,7 +10,7 @@ Guess what we are making this time? A programmingggggg language. It's a simple l
 
 ## What are lexical?
 
-Each word is a lexeme, also called a token. Suppose we have a {, the token representation would be `CODEBLOCKOPEN` or another name the language creator gives.
+Each word is a lexeme, also called a token. Suppose we have a \{ , the token representation would be `CODEBLOCKOPEN` or another name the language creator gives.
 
 for example, a Java code such as
 
