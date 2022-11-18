@@ -78,11 +78,11 @@ The assigning statement starts with a variable that is already declared, separat
 
 Similarly, if a statement starts with the keyword **cond**, it comes under the if statement.
 
-The statement inside `( )` is a boolean expression. We will talk about how boolean expression is translated to grammar later. and we <stmt_list> again inside `{ }`. Perform if the boolean expression is true.
+The statement inside `( )` is a boolean expression. We will talk about how boolean expression is translated to grammar later. and we `<stmt_list>` again inside `{ }`. Perform if the boolean expression is true.
 
 `<while_stmt> --> repeat <bool> { <stmt_list> }`
 
-Similar to an if statement, statements start with **repeat** and keep running <stmt_list> till bool is false.
+Similar to an if statement, statements start with **repeat** and keep running `<stmt_list>` till bool is false.
 
 I'm hoping by now. We learned how the diagram above works. Let's cover the statements we missed out on.
 
