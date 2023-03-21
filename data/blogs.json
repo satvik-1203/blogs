@@ -1,5 +1,10 @@
 [
   {
+    "name": "Life Update",
+    "url": "update",
+    "description": "What I wish to do with life going forward."
+  },
+  {
     "name": "Exce Lang",
     "url": "exce_lang",
     "description": "Programming Languages And Concepts"
